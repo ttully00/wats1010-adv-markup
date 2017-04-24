@@ -1,9 +1,13 @@
-/* Styles for the Advanced Markup assignment. */
+
 nav ul li {
   display: inline;
+  border: 15px solid yellow;
+    border-radius: none;
+  
+    
 }
-active {
-  font-weight: bold;
+.active {
+ background-color: yellow;
 }
 #sidebar {
   width: 250px;
@@ -22,6 +26,27 @@ active {
 }
 img{
   float: left;
-  width: 400px;
+  width: 401px;
   margin-right: 10px;
+  border-radius: 50%;
+  
+  
+}
+h2, h1{
+  border-style: inset;
+  border-color: black;
+  background-color: yellow;
+}
+table, th, td{
+  border: 1px solid black;
+  width: 75%;
+  background-color: yellow;
+}
+caption{
+  border-style: solid;
+  border-color: black;
+  background-color: red;
+  text: bold;
+  border-width: 2px 10px 4px 20px;
+    
 }
